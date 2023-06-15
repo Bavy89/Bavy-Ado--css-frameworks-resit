@@ -1,5 +1,27 @@
 .card {
     margin: 0 auto;
-    border-radius: 1.25rem;
+    border-radius: 10px;
 
+  }
+
+  .form-check {
+    padding: 25px;
+  }
+
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-md-6 {
+    width: 100%;
+    padding: 3px;
+  }
+
+  .form-group {
+    margin-bottom: 18px;
+  }
+
+  .form-control {
+    border: 2px solid #81CFC2;
   }

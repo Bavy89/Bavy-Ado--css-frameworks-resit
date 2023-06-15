@@ -6,13 +6,46 @@ body {
   }
 
 
-  .bg-light {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
 
-  .card-body {
-    width: 530px;
-  }
+  .card-title {
+    color: #ffff;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 37px;
+}
 
+.circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+li.page-item-bottom {
+  margin-top: 45px;
+}
+
+.page-item-disabled-bottom {
+  margin-top: 45px;
+}
+
+li.page-item-top {
+  margin-bottom: 45px;
+}
+
+.page-item-disabled-top {
+  margin-bottom: 45px;
+}

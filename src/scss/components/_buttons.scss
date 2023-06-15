@@ -1,4 +1,12 @@
-.dark-btn {
-    background-color: #343a40;
+.btn {
+    background-color: $primary-color;
     color: #ffffff;
+    border-radius: 2px;
+    width: 160px;
+  }
+
+
+  .pagination-bottom
+  {
+    margin-top: 30px;
   }
