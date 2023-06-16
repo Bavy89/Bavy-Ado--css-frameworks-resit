@@ -6,6 +6,14 @@ body {
   }
 
 
+  .background-section {
+    position: relative;
+    background-image: url("/images/image.png"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 45vh; 
+  }
 
   .card-title {
     color: #ffff;
@@ -48,4 +56,57 @@ li.page-item-top {
 
 .page-item-disabled-top {
   margin-bottom: 45px;
+}
+
+.background-section {
+  max-height: 600px; /* Adjust the maximum height as needed */
+  overflow-y: scroll;
+}
+
+.card-header {
+  background-color: #81CFC2;
+  color: #fff;
+  font-size: 20px;
+}
+
+.container-card-home
+{
+  padding: 15px;
+}
+
+.h2-brand--home
+{
+  padding: 40px;
+}
+
+
+.background-section {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.container-card {
+  padding: 200px;
+}
+
+.card-1 {
+  background-color: #575454;
+  opacity: 0.85;
+  margin-bottom: 10px;
+  width: 140px;
+  height: 55px;
+  text-align: center;
+
+}
+
+.card-1-text {
+color: #fff;
+font-size: 18px;
+
+}
+
+
+.card-2 {
+  background-color: #E4E4E4;
+  opacity: 0.85;
+  margin-bottom: 20px;
 }
