@@ -59,8 +59,7 @@ li.page-item-top {
 }
 
 .background-section {
-  max-height: 600px; /* Adjust the maximum height as needed */
-  overflow-y: scroll;
+  max-height: 600px;
 }
 
 .card-header {
@@ -80,33 +79,32 @@ li.page-item-top {
 }
 
 
-.background-section {
-  background-color: rgba(0, 0, 0, 0.85);
+.text-home-button {
+  display: inline-block;
+  padding: 18px 10px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 20px; 
 }
 
-.container-card {
-  padding: 200px;
+p{
+    color: black;
+    background-color: rgba(255,255,255,.5);
+    padding: 80px;
 }
 
-.card-1 {
-  background-color: #575454;
-  opacity: 0.85;
-  margin-bottom: 10px;
-  width: 140px;
-  height: 55px;
-  text-align: center;
-
+.info-homepage-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.card-1-text {
-color: #fff;
-font-size: 18px;
-
-}
-
-
-.card-2 {
-  background-color: #E4E4E4;
-  opacity: 0.85;
-  margin-bottom: 20px;
-}

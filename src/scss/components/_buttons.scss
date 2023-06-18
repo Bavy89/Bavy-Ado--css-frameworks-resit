@@ -1,10 +1,14 @@
 .btn {
-    background-color: $primary-color;
-    color: #ffffff;
-    border-radius: 2px;
-    width: 160px;
-  }
+  background-color: $primary-color;
+  color: #ffffff;
+  border-radius: 2px;
+  width: 160px;
 
+  &:hover,
+  &:active {
+    background-color: $darker-primary-color;
+  }
+}
 
   .pagination-bottom
   {
