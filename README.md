@@ -1,8 +1,8 @@
 # css-frameworks-ca
-/This is my  css framework resit assignment
+This is my  css framework resit assignment
 
 
-/Open with VS code and live server
+Open with VS code and live server
 
-/Npm i
+Npm i
 npm run
