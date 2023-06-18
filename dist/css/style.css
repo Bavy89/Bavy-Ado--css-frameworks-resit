@@ -11880,6 +11880,7 @@ textarea.form-control-lg {
 .nav-link {
   font-size: 19px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .navbar-nav {
@@ -11889,9 +11890,13 @@ textarea.form-control-lg {
   padding: 0;
 }
 
-.nav-link.active {
-  text-decoration: underline;
-  color: red;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  text-decoration: none;
+  color: #81CFC2;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 0 15px;
 }
 
 body {
@@ -11899,6 +11904,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Genetium", sans-serif;
 }
 
 .background-section {
@@ -11991,13 +11997,16 @@ p {
   padding: 80px;
 }
 
-.info-homepage-container {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 20px;
-  box-sizing: border-box;
+.background-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer p {
+  padding: 10px;
+  color: #666;
 }
 
 .card {

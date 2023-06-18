@@ -6,6 +6,7 @@
   .nav-link {
     font-size: 19px;
     font-weight: 400;
+    text-transform: uppercase;
   }
   
 .navbar-nav {
@@ -15,7 +16,12 @@
     padding: 0;
 } 
 
-.nav-link.active {
-  text-decoration: underline;
-  color: red;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  text-decoration: none;
+  color: #81CFC2;
+}
+
+.navbar-expand-md .navbar-nav .nav-link
+{
+  padding: 0 15px;
 }
