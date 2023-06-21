@@ -4,7 +4,8 @@
   "description": "CSS Frameworks CA project/resit",
   "scripts": {
     "build": "sass src/scss:dist/css",
-    "watch": "sass src/scss:dist/css --watch & live-server"
+    "watch": "sass src/scss:dist/css --watch & live-server",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
